@@ -2,7 +2,7 @@
 
 A high-performance, $O(1)$ memory allocation Kinematic Character Controller designed for Unity. Built from the ground up to eliminate Garbage Collection overhead during high-frequency movement physics evaluations.
 
-> **A Little Note:** I am a high school student developing this project as a core technical portfolio piece for my upcoming abroad university applications. I am aiming for true AAA-level engineering standards. As time passes, we will see how far this architecture can go! Initial working prototypes are scheduled to be uploaded by **September 20, 2026**.
+> **A Little Note:** I am a high school student developing this project as a core technical portfolio piece for my upcoming abroad university applications. I am aiming for true AAA-level engineering standards. As time passes, we will see how far this architecture can go! Initial working prototypes are scheduled to be uploaded by **September 20/22, 2026**.
 
 ---
 
