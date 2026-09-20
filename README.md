@@ -8,8 +8,11 @@ A high-performance, $O(1)$ memory allocation Kinematic Character Controller engi
 
 ## 🎥 Phase 1: Locomotion Baseline & Profiler Proof
 
-<!-- Videoyu GitHub web arayüzünde README düzenleme penceresine sürükleyip bıraktığında oluşan linki buraya yapıştırabilirsin -->
-https://github.com/user-attachments/assets/YOUR_VIDEO_ID_HERE
+
+
+https://github.com/user-attachments/assets/e19ba3cc-b0ec-4cef-8db1-247f56215c20
+
+
 
 > **Profiler Result:** `KCCMotor.Update` runs at strictly **0 Bytes GC Alloc** per frame under active player movement.
 
