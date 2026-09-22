@@ -6,9 +6,7 @@ namespace Core.Input
     {
         private const float DefaultDeadzone = 0.05f;
 
-        /// <summary>
-        /// Ham 2D hareket girdisini temizler, deadzone uygular ve genliği 1.0 ile sınırlar. (Zero-GC)
-        /// </summary>
+        
         public static Vector2 ProcessMoveInput(in Vector2 rawInput, float deadzone = DefaultDeadzone)
         {
             float sqrMag = rawInput.sqrMagnitude;

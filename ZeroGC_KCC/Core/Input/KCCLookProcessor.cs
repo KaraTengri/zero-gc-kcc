@@ -6,6 +6,7 @@ namespace Core.Input
     {
         private const float DefaultDeadzone = 0.05f;
 
+        
         public static Vector2 ProcessLookInput(
             in Vector2 rawLook, 
             float sensitivityX, 

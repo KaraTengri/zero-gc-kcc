@@ -43,9 +43,7 @@ namespace Core.Physics
         public static readonly SurfaceProperties Air = new SurfaceProperties(Vector3.up, 0f, 45f, SurfaceType.Default);
     }
 
-    /// <summary>
-    /// Zemin türlerini ve fiziksel yüzey özelliklerini O(1) hızla ve Zero-GC ile çözen statik motor.
-    /// </summary>
+    
     public static class SurfaceResolver
     {
         // Static lookup table: Enum indeksinden doğrudan sürtünme değerine O(1) erişim.
@@ -61,9 +59,7 @@ namespace Core.Physics
 
         private const float DefaultMaxAngle = 45f;
 
-        /// <summary>
-        /// Sürtünme katsayısını statik diziden O(1) hızla çeker.
-        /// </summary>
+        
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static float GetFriction(SurfaceType type)
         {
@@ -75,9 +71,7 @@ namespace Core.Physics
             return 1.0f;
         }
 
-        /// <summary>
-        /// Raycast çakışma verisini KCCStateData ve SurfaceProperties durumuna aktarır (Zero-GC).
-        /// </summary>
+        
         public static SurfaceProperties ResolveSurfaceState(
             in RaycastHit hitInfo, 
             bool hasHit,  
@@ -107,9 +101,7 @@ namespace Core.Physics
             return surface;
         }
 
-        /// <summary>
-        /// Yüzey açısına bağlı olarak kayma yönünü hesaplar.
-        /// </summary>
+        
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static Vector3 GetSlopeSlideDirection(in Vector3 surfaceNormal)
         {

@@ -2,9 +2,7 @@ using UnityEngine;
 
 namespace Core.Physics
 {
-    /// <summary>
-    /// KCC için yüksek performanslı, Zero-GC kinematik fizik hesaplama çekirdeği.
-    /// </summary>
+    
     public static class KCCMotorCore
     {
         public static Vector3 Accelerate(

@@ -6,7 +6,7 @@ namespace Core.Physics
     {
         private const float Epsilon = 0.0001f;
 
-       
+        
         public static Vector3 ProjectToWorldSpace(
             in Vector2 processedInput, 
             in Vector3 forward, 
